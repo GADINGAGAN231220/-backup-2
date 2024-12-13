@@ -1,0 +1,102 @@
+/* Mengatur tampilan dasar body */
+body {
+    background-color: #f8f9fa; /* Warna latar belakang netral */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Kontainer utama */
+.container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 40px;
+}
+
+/* Header utama */
+h1, h2, h3 {
+    color: #343a40;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Tombol Bootstrap yang diperbarui */
+.btn-primary, .btn-success, .btn-danger, .btn-warning {
+    border-radius: 25px;
+    padding: 10px 20px;
+}
+
+/* Tombol kembali */
+.btn-secondary {
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
+
+/* Tabel */
+.table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.table th {
+    background-color: #007bff;
+    color: #ffffff;
+}
+
+.table th, .table td {
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #dee2e6;
+}
+
+/* Formulir input */
+.form-control {
+    border-radius: 10px;
+    padding: 12px;
+}
+
+/* Warna latar belakang untuk dashboard admin */
+.admin-header {
+    background-color: #343a40;
+    padding: 15px;
+    color: #ffffff;
+    text-align: center;
+}
+
+/* Link navigasi */
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Pesan kesalahan atau keberhasilan */
+.alert {
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+/* Footer */
+.footer {
+    background-color: #343a40;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Responsif */
+@media (max-width: 768px) {
+    .container {
+        padding: 20px;
+    }
+}
